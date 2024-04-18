@@ -1,0 +1,90 @@
+
+.bgGif {
+    background-color: bisque;
+    position: fixed; /* Changed from relative to fixed */
+    top: 0; /* Added to ensure the gif starts from the top */
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1; /* Ensure the gif stays behind your content */
+}
+
+.bgImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logWindow {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logBox {
+    
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(rgb(241, 250, 115), rgb(245, 187, 80));
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: Chalkduster, fantasy;
+}
+
+.logBox button {
+    background-color: rgb(255, 98, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logBox [type=text] {
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+a {
+    font-size: 14px;
+}
+.regBox
+{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+    background-color: rgba(255, 189, 76, 0.7);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.regBox [type=text] {
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.regBox h3{
+    display: inline-block;
+    font-size: 40px;
+    font-family: Chalkduster, fantasy;
+}
+
+#backbtn{
+    
+    display: inline-block;
+    font-size: 40px;
+    color:purple;
+    
+    background-color: transparent;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+#backbtn:hover{
+    color: rgb(255, 0, 149);
+   font-size: 50px;
+
+}

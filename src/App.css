@@ -1,0 +1,25 @@
+.App
+{
+  text-align: center;
+}
+
+.ProfileCard
+{
+  display:flex;
+  text-align: center;
+  justify-content: space-evenly;
+  box-shadow: 5px 5px lightblue;
+  width: 20%;
+  background-color: rgb(113, 113, 113);
+  overflow: hidden;
+}
+
+.upLoadform{
+    
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgb(192, 192, 192);
+  overflow: hidden;
+}
+

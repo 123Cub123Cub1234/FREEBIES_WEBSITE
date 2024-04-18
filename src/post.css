@@ -1,0 +1,32 @@
+/*Upload*/
+ div{
+    margin: 5px;
+}
+textarea {
+  background-color: rgba(128, 128, 128, 0);
+  resize: none;
+}
+#titlePost{
+  background-color: transparent;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+.option {
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 5px;
+    width: 100px;
+    background-color: gray;
+}
+.radioButton {
+    display: none;
+  }
+
+.selected {
+    background-color: orange;
+}
+
