@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.forum-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.forum-container h1 {
+    color: #333;
+}
+
+.post {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post h2 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.post p {
+    color: #666;
+}
+
+.post-info a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.post-info a:hover {
+    text-decoration: underline;
+}
